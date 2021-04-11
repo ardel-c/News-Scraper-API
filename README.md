@@ -119,7 +119,7 @@ Response Body Success Example:
 
 ## Sequence Diagram
 
-![Sequence Diagram](assets/SequenceDiagram.png)
+![Sequence Diagram](assets/Sequence Diagram.png)
 
 
 
