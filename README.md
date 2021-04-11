@@ -165,11 +165,31 @@ http://127.0.0.1:8000/v1/news/?keyword=mudik
 
 
 
-2. **You can also interact with the API using command line tools such as `curl`.**
+**2. You can also interact with the API using command line tools such as `curl`.**
 
 ```bash
 curl -H 'Accept: application/json' -u admin:adm12345 http://127.0.0.1:8000/v1/news/?keyword=covid
 ```
 
 ![Curl](assets/curl.png)
+
+
+
+**3. You can run the automated test provided in `api/tests.py` by running the command below**
+
+```bash
+python3 ./manage.py test
+```
+
+```bash
+(base) MacBook-Air:news_scraper ardeliachristina$ python3 manage.py test
+Creating test database for alias 'default'...
+System check identified no issues (0 silenced).
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.031s
+
+OK
+Destroying test database for alias 'default'...
+```
 
